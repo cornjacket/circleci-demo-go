@@ -11,6 +11,8 @@ import (
 	"github.com/mattes/migrate/migrate"
 )
 
+// useless comment to test out push myfork
+
 func main() {
 	db := SetupDB()
 	server := service.NewServer(db)
